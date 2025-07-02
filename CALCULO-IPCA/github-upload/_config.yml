@@ -1,0 +1,27 @@
+# GitHub Pages Configuration
+include:
+  - "_*"
+  - "docs/"
+  - "*.html"
+  - "*.css"
+  - "*.js"
+  - "*.json"
+  - "*.md"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+title: "Calculadora de Reajuste Salarial"
+description: "Calculadora de reajuste salarial 100% offline para dispositivos móveis com índices IPCA, IGP-M, INPC e SELIC atualizados"
+url: "https://smsilva2024.github.io"
+baseurl: "/calculadora-reajuste-salarial"
+
+author:
+  name: "Seu Nome"
+  email: "seu-email@exemplo.com"
+
+google_analytics: # Opcional: adicione seu ID do Google Analytics
+
+social:
+  github: seu-usuario
